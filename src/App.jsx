@@ -2,6 +2,7 @@ import Header from "./Components/Header";
 import Carousel from "./Components/Carousel";
 import QuickLinks from "./Components/QuickLinks";
 import WelcomeSection from "./Components/WelcomeSection";
+import SkillingPath from "./Components/SkillingPath";
 
 const App = () => {
   return (
@@ -20,6 +21,9 @@ const App = () => {
 
           {/* Welcome Section */}
           <WelcomeSection />
+
+          {/* Skilling Path Section */}
+          <SkillingPath />
         </main>
       </div>
     </div>
