@@ -3,6 +3,8 @@ import Carousel from "./Components/Carousel";
 import QuickLinks from "./Components/QuickLinks";
 import WelcomeSection from "./Components/WelcomeSection";
 import SkillingPath from "./Components/SkillingPath";
+import PhotoGallery from "./Components/PhotoGallery";
+import SkillingProgress from "./Components/SkillingProgress";
 
 const App = () => {
   return (
@@ -24,6 +26,12 @@ const App = () => {
 
           {/* Skilling Path Section */}
           <SkillingPath />
+
+          {/* Photo Gallery Section */}
+          <PhotoGallery />
+
+          {/* Skilling Progress Section */}
+          <SkillingProgress />
         </main>
       </div>
     </div>
