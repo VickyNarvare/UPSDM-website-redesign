@@ -5,6 +5,8 @@ import WelcomeSection from "./Components/WelcomeSection";
 import SkillingPath from "./Components/SkillingPath";
 import PhotoGallery from "./Components/PhotoGallery";
 import SkillingProgress from "./Components/SkillingProgress";
+import GovtLinks from "./Components/GovtLinks";
+import Footer from "./Components/Footer";
 
 const App = () => {
   return (
@@ -32,7 +34,13 @@ const App = () => {
 
           {/* Skilling Progress Section */}
           <SkillingProgress />
+
+          {/* Government Links Section */}
+          <GovtLinks />
         </main>
+
+        {/* Footer Section */}
+        <Footer />
       </div>
     </div>
   )

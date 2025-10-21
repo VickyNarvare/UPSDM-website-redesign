@@ -14,7 +14,7 @@ const SkillingPath = () => {
       image: process1,
       gradient: 'from-purple-500 via-pink-500 to-red-500',
       bgGradient: 'from-purple-50 to-pink-50',
-      number: '01',
+    //   number: '01',
       description: 'Candidate registration process for UPSDM Portal.'
     },
     {
@@ -23,7 +23,7 @@ const SkillingPath = () => {
       image: process2,
       gradient: 'from-blue-500 via-cyan-500 to-teal-500',
       bgGradient: 'from-blue-50 to-cyan-50',
-      number: '02',
+    //   number: '02',
       description: 'We provide different skill courses to improve your skill.'
     },
     {
@@ -32,7 +32,7 @@ const SkillingPath = () => {
       image: process3,
       gradient: 'from-orange-500 via-amber-500 to-yellow-500',
       bgGradient: 'from-orange-50 to-amber-50',
-      number: '03',
+    //   number: '03',
       description: 'You can check your result and login on portal.'
     },
     {
@@ -41,7 +41,7 @@ const SkillingPath = () => {
       image: process4,
       gradient: 'from-green-500 via-emerald-500 to-teal-500',
       bgGradient: 'from-green-50 to-emerald-50',
-      number: '04',
+    //   number: '04',
       description: 'Placement opportunities for skilled candidates.'
     }
   ];
@@ -184,11 +184,11 @@ const SkillingPath = () => {
                   transform transition-all duration-300
                   active:scale-95`}>
                   
-                  {/* Step Number */}
+                  {/* Step Number
                   <div className={`absolute -top-3 -right-3 w-10 h-10 rounded-full bg-gradient-to-br ${step.gradient} 
                     flex items-center justify-centerfont-bold shadow-lg z-10`}>
                     {step.number}
-                  </div>
+                  </div> */}
 
                   <div className="flex items-center gap-4 mb-4">
                     {/* Image Circle */}
